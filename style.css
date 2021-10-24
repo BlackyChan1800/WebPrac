@@ -1,6 +1,36 @@
 body {
-    margin: 0;
+    margin: 0px;
+    padding: 0px;                                      
+    background-color: rgba(0, 0, 0, 0.75);
     font-family: 'Times New Roman', Times, Arial, Helvetica, sans-serif;
+}
+
+header {
+    background: rgba(50,0,75,1.5);
+    height: 70px;
+}
+
+header ul li {
+    list-style-type: none;
+}
+
+header ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.left-nav {
+    float: left;
+}
+
+.right-nav {
+    float: right;
+    margin: 10px;
+}
+
+.right-nav li {
+    display:inline-block;
+    margin: 10px;
 }
 
 .main-container {
@@ -14,6 +44,7 @@ body {
 
 .main-container h1 {
     width: auto;
+    color: rgb(255, 0, 43);
     border-bottom: 3pt solid rgb(255, 0, 43);
     padding: 0px 100px;
     margin-bottom: 100px;
@@ -42,7 +73,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: center, top;
     background-image: linear-gradient(rgba(500, 500, 500, 0.1), rgba(500, 500, 500, 0.1)),
         url("https://www.mosmanparkvet.com.au/wp-content/uploads/2018/09/Puppy_header.jpg");
     background-repeat: no-repeat;
@@ -57,4 +88,13 @@ body {
     color: mintcream;
     font-size: 25px;
     margin-left: 30px;
+}
+
+footer {
+    clear: both;
+    background: rgba(50,0,75,1.5);
+    margin-top: 50px;
+    padding: 5px;
+    text-align: center;
+    color: rgb(255, 255, 255);
 }
