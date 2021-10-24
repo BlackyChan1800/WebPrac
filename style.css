@@ -1,7 +1,6 @@
-body {
-    margin: 0px;
-    padding: 0px;                                      
-    background-color: rgba(0, 0, 0, 0.75);
+* {
+    margin: 0;
+    padding: 0;
     font-family: 'Times New Roman', Times, Arial, Helvetica, sans-serif;
 }
 
@@ -35,13 +34,31 @@ header ul li a {
     margin: 10px;
 }
 
+section {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: auto;
+}
+
+.section {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
 .main-container {
     width: 100%;
     height: 100vh;
+    padding-top: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: center, top;
+    background-image: linear-gradient(rgba(500, 500, 500, 0.1), rgba(500, 500, 500, 0.1)),
+        url("images/100ChipSingle.png");
+    background-repeat: no-repeat;
+    background-size: 100%
 }
 
 .main-container h1 {
@@ -69,7 +86,7 @@ header ul li a {
     margin-left: 30px;
 }
 
-.Sub-1 {
+.Sub {
     width: 100%;
     height: 100vh;
     display: flex;
@@ -82,7 +99,7 @@ header ul li a {
     background-size: 100%
 }
 
-.Sub-1 h1 {
+.Sub h1 {
     color: rgba(0, 17, 255, 0.849)
 }
 
