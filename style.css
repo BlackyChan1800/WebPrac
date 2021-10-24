@@ -21,6 +21,8 @@ header ul li a {
 
 .left-nav {
     float: left;
+    margin: 10px;
+    padding: 0px;
 }
 
 .right-nav {
