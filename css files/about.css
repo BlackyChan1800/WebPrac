@@ -1,0 +1,43 @@
+body {
+    margin: 0px;
+    padding: 0px;                                      
+    background-color: rgba(0, 0, 0, 0.75);
+    font-family: 'Times New Roman', Times, Arial, Helvetica, sans-serif;
+}
+
+header {
+    background: rgba(50,0,75,1.5);
+    height: 70px;
+}
+
+header ul li {
+    list-style-type: none;
+}
+
+header ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.left-nav {
+    float: left;
+}
+
+.right-nav {
+    float: right;
+    margin: 10px;
+}
+
+.right-nav li {
+    display:inline-block;
+    margin: 10px;
+}
+
+footer {
+    clear: both;
+    background: rgba(50,0,75,1.5);
+    margin-top: 50px;
+    padding: 5px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
