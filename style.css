@@ -18,6 +18,10 @@ header ul li a {
     text-decoration: none;
 }
 
+header .right-nav .links{
+    float: left;
+}
+
 .left-nav {
     float: left;
     margin: 10px;
@@ -38,7 +42,6 @@ section {
     position: relative;
     height: 100vh;
     width: 100%;
-    overflow: auto;
 }
 
 .section {
@@ -51,10 +54,8 @@ section {
     width: 100%;
     height: 100vh;
     padding-top: 50px;
-    display: flex;
+    display: fixed;
     flex-direction: column;
-    align-items: center;
-    justify-content: center, top;
     background-image: linear-gradient(rgba(500, 500, 500, 0.1), rgba(500, 500, 500, 0.1)),
         url("images/100ChipSingle.png");
     background-repeat: no-repeat;
@@ -62,11 +63,11 @@ section {
 }
 
 .main-container h1 {
-    width: auto;
+    width: 100px;
     color: rgb(255, 0, 43);
     border-bottom: 3pt solid rgb(255, 0, 43);
     padding: 0px 100px;
-    margin-bottom: 100px;
+    margin: 100px 0px 100px 650px;
 }
 
 .main-content {
@@ -106,13 +107,34 @@ section {
 .Sub-content p{
     color: mintcream;
     font-size: 25px;
-    margin-left: 30px;
+}
+
+.Sub2 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center, top;
+    background-image: linear-gradient(rgba(500, 500, 500, 0.1), rgba(500, 500, 500, 0.1)),
+        url("images/FullCardsSetFace.png");
+    background-repeat: no-repeat;
+    background-size: 100%
+}
+
+.Sub2 h1 {
+    color: rgb(255, 255, 0)
+}
+
+.Sub2-content p{
+    color: rgb(0, 255, 128);
+    font-size: 25px;
+    margin-left: 0px;
 }
 
 footer {
     clear: both;
     background: rgba(50,0,75,1.5);
-    margin-top: 50px;
     padding: 5px;
     text-align: center;
     color: rgb(255, 255, 255);
